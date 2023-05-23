@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .container::after{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  z-index: -1;
+  }
+
+  .shoe {
+    width: 85%;
+    height: 75%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 7.5%;
+    box-shadow: 0 0 20px black;
+  }
+
+  .des {
+    max-width: 40%;
+    color: white;
+  }
+
+  .des > h1 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+  }
+
+  .des > p {
+    font-size: large;
+    margin-bottom: 50px;
+  }
+
+  .shoe-1 {
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    width: 600px;
+    height: 300px;
+  }
+  .shoe-1:hover{
+    top: 15px;
+    width: 900px;
+    height: 600px;
+  }
